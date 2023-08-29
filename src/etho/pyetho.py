@@ -849,5 +849,25 @@ def all_family_languages(family):
                 if family in data[i]['families']:
                     result.append(data[i]['families'][family])
             return result
-
+ def continent_names():
+             """
+             Returns a list of all the continents in the world.
+        
+             Returns:
+             list: A continent names of all over the world in a list format.
+        
+             Examples
+             --------        
+             >>> pyetho.continent_names()
+             Africa
+             Asia
+             Australia
+             Europe
+             North America
+             South America
+             Antarctica
+             """
+             l = ['Africa','Asia','Australia','Europe','North America','South America','Antarctica']
+             for i in l:
+                 print(i)
     
